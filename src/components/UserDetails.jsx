@@ -77,10 +77,10 @@ const UserDetails = ({id,firstName,lastName,phoneNo,email,state,city,dob,gender}
 
               <td>
                 <div className='flex justify-center items-center'>
-                    <div className="text-center text-sm md:text-left flex justify-center py-4 px-4"> 
+                    <div className="text-center text-sm md:text-left flex justify-center py-4 px-4 cursor-pointer"> 
                         <FaEdit onClick={handleEditUser}/>
                     </div>
-                    <div className="text-center text-sm md:text-left flex justify-end py-4 px-4"> 
+                    <div className="text-center text-sm md:text-left flex justify-end py-4 px-4 cursor-pointer"> 
                         <FaTrash onClick={handleDelete}/>
                     </div> 
                 </div> 
