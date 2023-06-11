@@ -101,7 +101,10 @@ const Home = () => {
                         users.map((item,index) => {
                           return <UserDetails key={index} {...item}/>
                         })
-                        : "No data found, please add user"
+                        : 
+                        <div className='flex justify-center items-center w-full'>
+                          <p className='text-xl font-semibold text-red-600'>No data found, please add user</p>
+                        </div>
                     }
                   </table>
                 </div>
